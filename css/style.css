@@ -1,0 +1,58 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(to left, #f5f5f5 50%, #fff 50%);
+	font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    /* left background = #f5f5f5 50%
+     right background = #fff 50% */
+}
+.loginform {
+    padding: 30px 0px;
+}
+.lform h1 {
+    padding: 0px 0px;
+    font-size: 2.813em;
+    color: #333;
+    font-weight: 700;
+}
+p {
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    font-weight: 400;
+}
+img {
+    max-width:100%;
+}
+.rform {
+    padding-bottom: 30px;
+}
+.rform p {
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: 400;
+}
+.rform h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (max-width: 640px){
+
+	body {
+		background: #FFF;
+    }
+    .lform h1 {
+        font-size: 1.625em;
+    }
+	
+}
